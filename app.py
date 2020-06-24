@@ -14,7 +14,6 @@ menus = ['Current Updates','Top 10','New Cases', 'Past Patterns','Your Country',
 st.sidebar.header('MENU')
 menu = st.sidebar.radio('View',menus)
 st.sidebar.subheader('Author')
-st.sidebar.markdown('> ### Sri Lakshmi')
 st.sidebar.markdown("### [Sri Lakshmi](https://sites.google.com/view/srilakshmi)")
 st.sidebar.info('Machine/ Deep Learning Researcher, Engineer')
 st.sidebar.markdown("#### [Contact Author](https://sites.google.com/view/srilakshmi/contact)")
