@@ -15,12 +15,10 @@ st.sidebar.header('MENU')
 menu = st.sidebar.radio('View',menus)
 st.sidebar.subheader('Author')
 st.sidebar.markdown('> ### Sri Lakshmi')
-st.sidebar.info('Machine/ Deep Learning Researcher')
-import webbrowser
-if st.sidebar.button('Contact Author'):
-    webbrowser.open_new_tab('https://sites.google.com/view/srilakshmi/contact')
+st.sidebar.markdown("### [Sri Lakshmi](https://sites.google.com/view/srilakshmi)")
+st.sidebar.info('Machine/ Deep Learning Researcher, Engineer')
+st.sidebar.markdown("#### [Contact Author](https://sites.google.com/view/srilakshmi/contact)")
 
-@st.cache
 def get_data():
 	confirmed = pd.read_csv('https://raw.githubusercontent.com/CSSEGISandData/COVID-19/master/csse_covid_19_data/csse_covid_19_time_series/time_series_covid19_confirmed_global.csv')
 	deaths = pd.read_csv('https://raw.githubusercontent.com/CSSEGISandData/COVID-19/master/csse_covid_19_data/csse_covid_19_time_series/time_series_covid19_deaths_global.csv')
